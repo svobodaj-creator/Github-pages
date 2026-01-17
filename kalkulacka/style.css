@@ -3,11 +3,6 @@
     font-family: Arial, sans-serif;
 }
 
-title {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 body {
     background: #f2f2f2;
     display: flex;
@@ -17,9 +12,10 @@ body {
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 10px;
+    position: absolute;
+    top: 20px;
 }
+
 
 #formular {
     background: #ffffff;
@@ -50,4 +46,5 @@ h1 {
     margin-bottom: 10px;
     min-height: 24px;
 }
+
 
