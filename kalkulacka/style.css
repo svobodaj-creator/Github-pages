@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formular {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 260px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#formular input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#formular button {
+    width: 48%;
+    padding: 8px;
+    margin: 1%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#vysledek {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 10px;
+    min-height: 24px;
+}
